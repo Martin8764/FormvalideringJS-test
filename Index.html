@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formvalidering med JS</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    
+    <div class="header">
+        <h1>Header</h1>
+        <p>Header</p>
+    </div>
+
+    <div class="Uppgift1">
+                <h3 id="1"></h3>
+                <h3 id="2"></h3>
+                <h3 id="3"></h3>
+                <h3 id="4"></h3>
+                <h3 id="5"></h3>
+                <h3 id="6"></h3>
+                <h3 id="7"></h3>
+                <h3 id="8"></h3>
+                <h3 id="9"></h3>
+                <h3 id="10"></h3>
+    </div>
+  
+    <div id="Top">
+        <form action="Personal">
+            <fieldset>
+                <div class="class1">
+
+                    <!--Ändra lite-->
+                    <label for="username"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="username" id="username" required>
+
+                    <label for="email"><b>Email</b></label>
+                    <input type="email" placeholder="Enter Email" name="email" id="email" required>
+                
+                    <br>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+                
+                    <label for="psw-repeat"><b>Repeat Password</b></label>
+                    <input type="password" placeholder="Enter password again" name="psw-repeat" id="psw-repeat" required>
+
+                    <p>By registering you agree to our <a href="#">Terms & Privacy</a>.</p>
+                    <label for="checkbox">I agree</label> <input type="checkbox" id="checkbox" name="checkbox"indeterminate>
+                    <!--Fixa länken till den andra sidan, detta funkade inte-->
+                   <!--<a href="inloggad.html"> </a>---> 
+                    <button type="submit" onClick="myFunction()" class="registerbtn">Register</button>
+                    
+                    
+
+                    </div>
+            </fieldset>
+ 
+          </form>
+
+
+        <div id="Bottom">
+            <form action="Personal"></form>
+                <fieldset>
+                    <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;"> </canvas>
+                </fieldset>
+              </form>
+            </div>
+
+
+
+
+
+            <script src="Script.js"></script>
+
+</body>
+
+
+
+</html> 
