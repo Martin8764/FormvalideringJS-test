@@ -1,4 +1,4 @@
-//Uppgift 1 JS
+
 
 var XArray = [] 
     for( let i = 1; i < 11; i++)
@@ -39,41 +39,10 @@ document.getElementById("i").innerHTML=XArray[7];
 document.getElementById("o").innerHTML=XArray[8];
 document.getElementById("p").innerHTML=XArray[9];
 
-// Testa om det går att förflyttas till en annan sida genom register knappen
 
 function myFunction() {
     window.location.href="https://www.youtube.com/";
   }
-
-
-
-/* Uppgift 1 orginal kod som inte blev helt klar
-
-var RNr = Math.random() * (100 - 1) + 1;
-var XArray = [];
-
-for (i = 0; i <= RNr; i = i + 1) { // fel här omrandom RNr
- XArray[i] = i;
-}
-
-document.write('Talen visas i ordning' + '');
-for (i = 1; i <= RNr; i = i + 1) {
- document.write(XArray[i] + '<br />');
-}
-
-function sort_default() {
-
-    XArray.sort();
-   
-    for (i = 0; i < RNr; i = i + 1) {
-     RandomSortArray.innerHTML = RandomSortArray.innerHTML + XArray[i] + '<br />';
-    }
-   }
-
-*/
-
-
-// Uppgift 2 JS
 
 
 
