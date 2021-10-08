@@ -24,7 +24,10 @@ document.getElementById("8").innerHTML=XArray[7];
 document.getElementById("9").innerHTML=XArray[8];
 document.getElementById("10").innerHTML=XArray[9];
 
+
 XArray.push(RNr);
+
+
 
 // Testa om det går att förflyttas till en annan sida genom register knappen
 
