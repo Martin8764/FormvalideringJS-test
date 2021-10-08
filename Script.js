@@ -26,10 +26,23 @@ document.getElementById("10").innerHTML=XArray[9];
 
 XArray.push(RNr);
 
+XArray.sort(function(a,b){return a-b});
+
+document.getElementById("q").innerHTML=XArray[0];
+document.getElementById("w").innerHTML=XArray[1];
+document.getElementById("e").innerHTML=XArray[2];
+document.getElementById("r").innerHTML=XArray[3];
+document.getElementById("t").innerHTML=XArray[4];
+document.getElementById("y").innerHTML=XArray[5];
+document.getElementById("u").innerHTML=XArray[6];
+document.getElementById("i").innerHTML=XArray[7];
+document.getElementById("o").innerHTML=XArray[8];
+document.getElementById("p").innerHTML=XArray[9];
+
 // Testa om det går att förflyttas till en annan sida genom register knappen
 
 function myFunction() {
-    window.location.href="http://programminghead.com";
+    window.location.href="https://www.youtube.com/";
   }
 
 
